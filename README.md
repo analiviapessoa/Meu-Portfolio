@@ -2,6 +2,5 @@
 
 Página desenvolvida em HTML e CSS com meu portfólio (Projetos, Contato e Informações)
 
-
-https://github.com/user-attachments/assets/4c947ec5-913e-4bec-ae3e-1338dfafe639
+https://github.com/user-attachments/assets/9cc4ab29-7005-41e1-84d3-1b9d1642e4b4
 
