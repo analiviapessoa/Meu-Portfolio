@@ -1,0 +1,163 @@
+body {
+    background-color: white;
+    color: #073193;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.navbar-list li{
+    list-style-type: none;
+}
+
+.navbar {
+    position: fixed;    
+    top: 0;              
+    width: 100%;      
+    background-color: white; 
+    padding: 0.5rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;      
+  }
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.título{
+    font-size: 20px;
+    align-items: left;
+    font-weight:'SemiBold';
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 15px;
+    font-weight: 'Regular';
+    color: #073193;
+}
+
+.nav-links a:hover {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #073193;
+}
+
+a img{
+    width: 30px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    gap: 50px;
+    scroll-margin-top: 120px;
+}
+
+.profile-photo-container{
+    display: flex;
+    justify-content: right;
+    padding-right: 80px;
+}
+
+.profile-photo{
+    border-radius: 50%;
+    width: 340px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #073193;
+    border-style: dotted;
+}
+
+.texto-inicial{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 20px;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.texto-inicial h1{
+    font-size: 50px;
+    font-weight: 'SemiBold';
+    color: #073193;
+}
+
+.texto-inicial p{
+    font-size: 30px;
+    font-weight: 'Regular';
+    color: #073193;
+}
+
+.topics{
+    display: flex;
+    align-items: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top: 50px;
+    scroll-margin-top: 80px;
+    gap: 20px;
+}
+
+#sobre-mim, #projetos, #contato{
+    scroll-margin-top: 80px;
+}
+
+.topics p{
+    color: black;
+    font-size: 16px;
+}
+
+.links-projetos{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 20px;
+    font-size: 15px;
+    text-decoration: underline;
+    color: black;
+}
+
+#contato a{
+    text-decoration: underline;
+    color: black;
+}
+
+#contato a:hover{
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    gap: 10px;
+}
