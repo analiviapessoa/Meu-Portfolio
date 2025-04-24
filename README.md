@@ -1,3 +1,3 @@
 # Meu-Portifolio
 
-Código em HTML e CSS com meu portifólio (Projetos, Contato e Informações)
+Código em HTML e CSS com meu portfólio (Projetos, Contato e Informações)
