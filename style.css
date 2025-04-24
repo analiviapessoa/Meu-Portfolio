@@ -66,7 +66,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 12%;
 }
 
 #home {
@@ -75,7 +75,7 @@ main {
     justify-content: center;
     flex-direction:row;
     gap: 50px;
-    scroll-margin-top: 120px;
+    scroll-margin-top: 200px;
 }
 
 .profile-photo-container{
@@ -122,13 +122,18 @@ main {
     justify-content: center;
     flex-direction: column;
     font-size: 18px;
-    margin-top: 50px;
-    scroll-margin-top: 80px;
+    margin-top: 10%;
     gap: 20px;
 }
 
+.topics h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #sobre-mim, #projetos, #contato{
-    scroll-margin-top: 80px;
+    scroll-margin-top: 100px;
 }
 
 .topics p{
@@ -146,13 +151,13 @@ main {
     color: black;
 }
 
+.links-projetos a:hover, #contato a:hover{
+    font-weight: bold;
+}
+
 #contato a{
     text-decoration: underline;
     color: black;
-}
-
-#contato a:hover{
-    font-weight: bold;
 }
 
 footer{
@@ -160,4 +165,38 @@ footer{
     justify-content: center;
     font-size: 12px;
     gap: 10px;
+}
+
+.eu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    gap: 20px;
+    padding: 20px;
+  }
+
+.lado-esquerdo, .lado-direito {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.skill{
+    background-color: #eee;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    color:black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
